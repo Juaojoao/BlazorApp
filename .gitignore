@@ -1,0 +1,52 @@
+## [ Visual Studio ]
+bin/
+obj/
+out/
+.vs/
+.vscode/
+*.user
+*.userosscache
+*.sln.docstates
+
+## [ .NET / ASP.NET Core ]
+appsettings.Development.json
+# Nota: Remova o comentário da linha acima apenas se não quiser subir 
+# suas configs de dev (onde geralmente ficam as strings de conexão locais).
+
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## [ Entity Framework ]
+*.db
+*.db-shm
+*.db-wal
+
+## [ Publish ]
+publish/
+*.release.json
+
+## [ Logs ]
+*.log
+logs/
+
+## [ OS / IDE Specific ]
+.DS_Store
+Thumbs.db
+.idea/
+*.swp
+
+## [ Node.js / Web Assets (Se usar Tailwind ou bibliotecas JS) ]
+node_modules/
+npm-debug.log*
+package-lock.json
+
+## [ User-specific files ]
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## [ Scaffolding and Temp files ]
+.scaffold/
+temp/
